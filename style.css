@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(120deg, rgba(10, 10, 10, 0.510) 0%,rgba(10, 10, 10, 0.510) 100%), url("./img/header1.jpg")!important; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 48vw;
+}
+
+/* HEADER START */
+
+.title-nav {
+    font-weight: 800;
+    color: #7FFF00;
+    text-decoration: none;
+    margin: 1em;
+}
+
+.menu-nav a {
+    font-weight: 800;
+    font-size: 20px;
+    color: #fff;
+    margin: 25px;
+    transition: 0.3s;
+}
+
+.menu-nav a:hover {
+    color: #7FFF00;
+}
+
+.apresentacao {
+    margin-top: 10em;
+    color: #ffff;
+}
+
+.apresentacao h3 {
+    font-family: 'Caveat', cursive;
+    font-size: 60px;
+    margin: 0 9em;
+}
+
+.apresentacao h1 {
+    font-weight: 800;
+    font-size: 69px;
+}
+
+.apresentacao p {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 6em;
+}
+
+
+/* HEADER END */
