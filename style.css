@@ -68,7 +68,6 @@ header {
 .container-section1 img {
     width: 19em;
     height: 37em;
-    margin: 20px;
 }
 
 .container-section1 h2 {
@@ -153,7 +152,13 @@ header {
 
 /* SECTION 3 END */
 
-@media (max-width: 1472px) {
+
+
+@media (max-width: 1450px) {
+
+    .container-nav {
+        margin-top: 6em;
+    }
 
     .apresentacao h3{
         font-size: 55px;
@@ -167,6 +172,9 @@ header {
         font-size: 15px;
     }
 
+    .background-section3 {
+        height: 25vw;
+    }
 }
 
 @media (max-width: 1030px) {
@@ -187,8 +195,126 @@ header {
         font-size: 13px;
     }
 
-    .container-section1 {
-        flex-direction: column;
+    .section3-box {
+        margin: 4em 3em;
     }
 
+    .background-section3 {
+        height: 35vw;
+    }
+
+}
+
+@media (max-width: 770px) and (min-width: 431px) {
+
+    .container-nav {
+        margin-top: 1em;
+    }
+
+    .menu-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background-color: rgba(0, 0, 0, 0.658);
+        border-radius: 10px;
+    }
+
+    .apresentacao h3{
+        font-size: 30px;
+    }
+
+    .apresentacao h1 {
+        font-size: 30px;
+    }
+
+    .apresentacao p{
+        font-size: 12px;
+    }
+
+    .container-section1 {
+        display: grid;
+        grid-template-areas:
+        'section1 section1-2'
+        'content-section1';
+    }
+
+    .section1{
+        grid-area: section1;
+    }
+
+    .section1-2 {
+        grid-area: section1-2;
+    }
+
+    .content-section1 {
+        grid-area: content-section1;
+        margin: 2em -11em;
+    }
+
+    .section3-box {
+        margin: 4em 1em;
+    }
+
+    .background-section3 {
+        height: 45vw;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    .container-nav {
+        margin-top: 0em;
+    }
+
+    .menu-nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.658);
+        border-radius: 10px;
+    }
+
+    .apresentacao h3{
+        display: none;
+    }
+
+    .apresentacao h1 {
+        display: none;
+    }
+
+    .apresentacao p{
+        display: none;
+    }
+
+    .container-section1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .section1{
+        display: none;
+    }
+
+    .container-section3 {
+        margin-top: 3em;
+    }
+
+    .section3-box {
+        margin: 4em 3em;
+    }
+
+    .background-section3 {
+        height: 235vw;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .background-section3 {
+        height: 265vw;
+    }
 }
