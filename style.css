@@ -318,3 +318,15 @@ header {
         height: 265vw;
     }
 }
+
+@media (max-width: 330px) {
+    .background-section3 {
+        height: 350vw;
+    }
+}
+
+@media (max-width: 265px) {
+    .background-section3 {
+        height: 440vw;
+    }
+}
